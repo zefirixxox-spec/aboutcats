@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+body * {
+    /* border: 2px solid green;
+    padding: 5px; */
+
+}
+
+.lxgw-wenkai-mono-tc-bold {
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-alternates-regular {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    /* width: 1110px; */
+    /* max-width: 1110px; */
+    max-width: 1130px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img {
+    /* width: 100px;
+    height: 100px; */
+}
+
+header {
+    /* border-color: red; */
+    margin-bottom: 20px;
+    /* background-color: #f95e5e; */
+    /* margin-right: auto;
+    margin-left: auto; */
+
+    h1 {
+        text-transform: uppercase;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .info {
+        width: 60%;
+    }
+
+    p {
+        /* width: 70%; */
+        text-align: justify;
+    }
+
+    img {
+        width: 35%;
+    }
+
+}
+
+main {
+    border-color: orange;
+    margin-bottom: 20px;
+    /* background-color: #ffeb77; */
+
+    section {
+        margin-bottom: 10px;
+        /* background-color: #b9ffb2; */
+        /* margin-right: auto;
+        margin-left: auto; */
+
+
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 35%;
+        }
+
+        p {
+            width: 25%;
+            font-size: 14px;
+        }
+    }
+
+    .first {
+        text-align: justify;
+    }
+
+}
+
+footer {
+    /* border-color: violet;
+    background-color: #ad41dc; */
+
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0;
+        width: 50%;
+        list-style:none;
+        li a{
+            color:rgb(255, 255, 255);
+            text-decoration:none;
+        }
+    }
+}
